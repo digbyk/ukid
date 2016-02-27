@@ -45,7 +45,7 @@ h3 {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	background-image: url(/images/union-flag.jpg);
+	background-image: url(/images/union-flag.jpg); 
 	background-size: contain;
 }
 #main sdiv {
