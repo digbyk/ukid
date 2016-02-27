@@ -9,13 +9,3 @@ html(lang="en")
 				block main
 				
 		block script
-			script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js")
-			script(src="//cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js")
-			script.
-				$("#countdown")
-					.countdown("2016/06/23", function(event) {
-						$(this).text(
-						event.strftime('%D days %H:%M:%S')
-					);
-				});
-
