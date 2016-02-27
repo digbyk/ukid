@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+	head
+		block head
+			include ./head
+	body
+		#outer
+			#inner
+				#header
+					block header
+						include ./header
+				#main
+					block main
+				#footer
+					block footer
+						include ./footer
+		block script
