@@ -1,9 +1,17 @@
 extends layout
 
 block main
+	#flag
+		img(src="/images/union-flag.jpg")
+		<!-- Image by http://freestock.ca/flags_maps_g80-uk_grunge_flag_p1019.html -->
 	#countdown
-	<!-- Image by http://freestock.ca/flags_maps_g80-uk_grunge_flag_p1019.html -->
-		
+	#ads
+		ins(class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-0790986216998660"
+			data-ad-slot="6898352486"
+			data-ad-format="auto")
+					
 block append script
 	script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js")
 	script(src="//cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js")
@@ -13,3 +21,8 @@ block append script
 				$(this).text(event.strftime('%D days %H:%M:%S'));
 		});
 
+	script(src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async)
+	<!-- UK Independence Day -->
+	
+	script.
+		(adsbygoogle = window.adsbygoogle || []).push({});
